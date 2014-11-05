@@ -1,0 +1,277 @@
+package lessons;
+
+public class Galileo {
+    private final static int NUM_OF_CELLS = 2;
+    public static final int NUM_OF_LINE = 120;
+    private String[][] heshStr = new String[NUM_OF_CELLS][NUM_OF_LINE];
+
+    public void setHeshStr(String[][] heshStr) {
+        //далее адовая индусятина, нужно в базу закинуть
+        heshStr[0][0] = "1";
+        heshStr[1][0] = "2";
+        heshStr[0][1] = "2";
+        heshStr[1][1] = "1";
+        heshStr[0][2] = "3";
+        heshStr[1][2] = "15";
+        heshStr[0][3] = "4";
+        heshStr[1][3] = "2";
+        heshStr[0][4] = "10";
+        heshStr[1][4] = "2";
+        heshStr[0][5] = "20";
+        heshStr[1][5] = "4";
+        heshStr[0][6] = "30";
+        heshStr[1][6] = "9";
+        heshStr[0][7] = "33";
+        heshStr[1][7] = "4";
+        heshStr[0][8] = "34";
+        heshStr[1][8] = "2";
+        heshStr[0][9] = "35";
+        heshStr[1][9] = "1";
+        heshStr[0][10] = "40";
+        heshStr[1][10] = "2";
+        heshStr[0][11] = "41";
+        heshStr[1][11] = "2";
+        heshStr[0][12] = "42";
+        heshStr[1][12] = "2";
+        heshStr[0][13] = "43";
+        heshStr[1][13] = "1";
+        heshStr[0][14] = "44";
+        heshStr[1][14] = "4";
+        heshStr[0][15] = "45";
+        heshStr[1][15] = "2";
+        heshStr[0][16] = "46";
+        heshStr[1][16] = "2";
+        heshStr[0][17] = "50";
+        heshStr[1][17] = "2";
+        heshStr[0][18] = "51";
+        heshStr[1][18] = "2";
+        heshStr[0][19] = "52";
+        heshStr[1][19] = "2";
+        heshStr[0][20] = "53";
+        heshStr[1][20] = "2";
+        heshStr[0][21] = "58";
+        heshStr[1][21] = "2";
+        heshStr[0][22] = "59";
+        heshStr[1][22] = "2";
+        heshStr[0][23] = "70";
+        heshStr[1][23] = "2";
+        heshStr[0][24] = "71";
+        heshStr[1][24] = "2";
+        heshStr[0][25] = "72";
+        heshStr[1][25] = "2";
+        heshStr[0][26] = "73";
+        heshStr[1][26] = "2";
+        heshStr[0][27] = "74";
+        heshStr[1][27] = "2";
+        heshStr[0][28] = "75";
+        heshStr[1][28] = "2";
+        heshStr[0][29] = "76";
+        heshStr[1][29] = "2";
+        heshStr[0][30] = "77";
+        heshStr[1][30] = "2";
+        heshStr[0][31] = "90";
+        heshStr[1][31] = "4";
+        heshStr[0][32] = "c0";
+        heshStr[1][32] = "4";
+        heshStr[0][33] = "c1";
+        heshStr[1][33] = "4";
+        heshStr[0][34] = "c2";
+        heshStr[1][34] = "4";
+        heshStr[0][35] = "c3";
+        heshStr[1][35] = "4";
+        heshStr[0][36] = "c4";
+        heshStr[1][36] = "1";
+        heshStr[0][37] = "c5";
+        heshStr[1][37] = "1";
+        heshStr[0][38] = "c6";
+        heshStr[1][38] = "1";
+        heshStr[0][39] = "c7";
+        heshStr[1][39] = "1";
+        heshStr[0][40] = "c8";
+        heshStr[1][40] = "1";
+        heshStr[0][41] = "c9";
+        heshStr[1][41] = "1";
+        heshStr[0][42] = "ca";
+        heshStr[1][42] = "1";
+        heshStr[0][43] = "cb";
+        heshStr[1][43] = "1";
+        heshStr[0][44] = "cc";
+        heshStr[1][44] = "1";
+        heshStr[0][45] = "cd";
+        heshStr[1][45] = "1";
+        heshStr[0][46] = "ce";
+        heshStr[1][46] = "1";
+        heshStr[0][47] = "cf";
+        heshStr[1][47] = "1";
+        heshStr[0][48] = "d0";
+        heshStr[1][48] = "1";
+        heshStr[0][49] = "d1";
+        heshStr[1][49] = "1";
+        heshStr[0][50] = "d2";
+        heshStr[1][50] = "1";
+        heshStr[0][51] = "d3";
+        heshStr[1][51] = "1";
+        heshStr[0][52] = "d4";
+        heshStr[1][52] = "1";
+        heshStr[0][53] = "d5";
+        heshStr[1][53] = "1";
+        heshStr[0][54] = "d6";
+        heshStr[1][54] = "1";
+        heshStr[0][55] = "d7";
+        heshStr[1][55] = "2";
+        heshStr[0][56] = "d8";
+        heshStr[1][56] = "2";
+        heshStr[0][57] = "d9";
+        heshStr[1][57] = "2";
+        heshStr[0][58] = "da";
+        heshStr[1][58] = "2";
+        heshStr[0][59] = "db";
+        heshStr[1][59] = "4";
+        heshStr[0][60] = "dc";
+        heshStr[1][60] = "4";
+        heshStr[0][61] = "dd";
+        heshStr[1][61] = "4";
+        heshStr[0][62] = "de";
+        heshStr[1][62] = "4";
+        heshStr[0][63] = "df";
+        heshStr[1][63] = "4";
+        heshStr[0][64] = "80";
+        heshStr[1][64] = "3";
+        heshStr[0][65] = "81";
+        heshStr[1][65] = "3";
+        heshStr[0][66] = "82";
+        heshStr[1][66] = "3";
+        heshStr[0][67] = "83";
+        heshStr[1][67] = "3";
+        heshStr[0][68] = "84";
+        heshStr[1][68] = "3";
+        heshStr[0][69] = "85";
+        heshStr[1][69] = "3";
+        heshStr[0][70] = "86";
+        heshStr[1][70] = "3";
+        heshStr[0][71] = "87";
+        heshStr[1][71] = "3";
+        heshStr[0][72] = "60";
+        heshStr[1][72] = "2";
+        heshStr[0][73] = "61";
+        heshStr[1][73] = "2";
+        heshStr[0][74] = "62";
+        heshStr[1][74] = "2";
+        heshStr[0][75] = "88";
+        heshStr[1][75] = "1";
+        heshStr[0][76] = "89";
+        heshStr[1][76] = "1";
+        heshStr[0][77] = "8a";
+        heshStr[1][77] = "1";
+        heshStr[0][78] = "8b";
+        heshStr[1][78] = "1";
+        heshStr[0][79] = "8c";
+        heshStr[1][79] = "1";
+        heshStr[0][80] = "a0";
+        heshStr[1][80] = "1";
+        heshStr[0][81] = "a1";
+        heshStr[1][81] = "1";
+        heshStr[0][82] = "a2";
+        heshStr[1][82] = "1";
+        heshStr[0][83] = "a3";
+        heshStr[1][83] = "1";
+        heshStr[0][84] = "a4";
+        heshStr[1][84] = "1";
+        heshStr[0][85] = "a5";
+        heshStr[1][85] = "1";
+        heshStr[0][86] = "a6";
+        heshStr[1][86] = "1";
+        heshStr[0][87] = "a7";
+        heshStr[1][87] = "1";
+        heshStr[0][88] = "a8";
+        heshStr[1][88] = "1";
+        heshStr[0][89] = "a9";
+        heshStr[1][89] = "1";
+        heshStr[0][90] = "aa";
+        heshStr[1][90] = "1";
+        heshStr[0][91] = "ab";
+        heshStr[1][91] = "1";
+        heshStr[0][92] = "ac";
+        heshStr[1][92] = "1";
+        heshStr[0][93] = "ad";
+        heshStr[1][93] = "1";
+        heshStr[0][94] = "ae";
+        heshStr[1][94] = "1";
+        heshStr[0][95] = "af";
+        heshStr[1][95] = "1";
+        heshStr[0][96] = "b0";
+        heshStr[1][96] = "2";
+        heshStr[0][97] = "b1";
+        heshStr[1][97] = "2";
+        heshStr[0][98] = "b2";
+        heshStr[1][98] = "2";
+        heshStr[0][99] = "b3";
+        heshStr[1][99] = "2";
+        heshStr[0][100] = "b4";
+        heshStr[1][100] = "2";
+        heshStr[0][101] = "b5";
+        heshStr[1][101] = "2";
+        heshStr[0][102] = "b6";
+        heshStr[1][102] = "2";
+        heshStr[0][103] = "b7";
+        heshStr[1][103] = "2";
+        heshStr[0][104] = "b8";
+        heshStr[1][104] = "2";
+        heshStr[0][105] = "b9";
+        heshStr[1][105] = "2";
+        heshStr[0][106] = "f0";
+        heshStr[1][106] = "4";
+        heshStr[0][107] = "f1";
+        heshStr[1][107] = "4";
+        heshStr[0][108] = "f2";
+        heshStr[1][108] = "4";
+        heshStr[0][109] = "f3";
+        heshStr[1][109] = "4";
+        heshStr[0][110] = "f4";
+        heshStr[1][110] = "4";
+        heshStr[0][111] = "f5";
+        heshStr[1][111] = "4";
+        heshStr[0][112] = "f6";
+        heshStr[1][112] = "4";
+        heshStr[0][113] = "f7";
+        heshStr[1][113] = "4";
+        heshStr[0][114] = "f8";
+        heshStr[1][114] = "4";
+        heshStr[0][115] = "f9";
+        heshStr[1][115] = "4";
+        heshStr[0][116] = "5a";
+        heshStr[1][116] = "4";
+        heshStr[0][117] = "5b";
+        heshStr[1][117] = "4";
+        heshStr[0][118] = "47";
+        heshStr[1][118] = "4";
+        heshStr[0][119] = "5c";
+        heshStr[1][119] = "68";
+    }
+
+    public void getHeshStr() {
+        setHeshStr(heshStr);
+        for (int i = 0; i < NUM_OF_LINE; i++) {
+            showLine(i);
+            System.out.println();
+        }
+    }
+
+    private void showLine(int lineNumber) {
+        for (int i = 0; i < NUM_OF_CELLS; i++) {
+            System.out.print("[" + heshStr[i][lineNumber] + "]");
+        }
+    }
+
+    public String getLengthOfByte(String byteName) {
+        String lengthOfByte = "Error";
+        for (int i = 0; i < NUM_OF_LINE; i++) {
+            if (byteName.equals(heshStr[0][i])) {
+                lengthOfByte = heshStr[1][i];
+            }
+
+        }
+        return lengthOfByte;
+    }
+
+}
